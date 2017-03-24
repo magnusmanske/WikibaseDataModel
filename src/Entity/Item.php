@@ -206,7 +206,6 @@ class Item implements EntityDocument, FingerprintProvider, StatementListHolder,
 	 * If there already is a site link with the site id of the provided site link,
 	 * then that one will be overridden by the provided one.
 	 *
-	 * @deprecated since 0.8, use getSiteLinkList()->addSiteLink() instead.
 	 * @since 0.6
 	 *
 	 * @param SiteLink $siteLink
@@ -222,7 +221,6 @@ class Item implements EntityDocument, FingerprintProvider, StatementListHolder,
 	/**
 	 * Removes the sitelink with specified site ID if the Item has such a sitelink.
 	 *
-	 * @deprecated since 0.8, use getSiteLinkList()->removeLinkWithSiteId() instead.
 	 * @since 0.1
 	 *
 	 * @param string $siteId the target site's id
@@ -242,7 +240,6 @@ class Item implements EntityDocument, FingerprintProvider, StatementListHolder,
 	}
 
 	/**
-	 * @deprecated since 0.8, use getSiteLinkList()->getBySiteId() instead.
 	 * @since 0.6
 	 *
 	 * @param string $siteId
@@ -255,7 +252,6 @@ class Item implements EntityDocument, FingerprintProvider, StatementListHolder,
 	}
 
 	/**
-	 * @deprecated since 0.8, use getSiteLinkList()->hasLinkWithSiteId() instead.
 	 * @since 0.4
 	 *
 	 * @param string $siteId
@@ -267,7 +263,6 @@ class Item implements EntityDocument, FingerprintProvider, StatementListHolder,
 	}
 
 	/**
-	 * @deprecated since 0.8, use getSiteLinkList()->isEmpty() instead.
 	 * @since 0.5
 	 *
 	 * @return bool
